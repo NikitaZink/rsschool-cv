@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613546220_28-p-fon-dlya-prezentatsii-belogo-tsveta-30.jpg");
+  margin: 0;
+  font-family: "Rubik", Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: #ffe657;
+  padding: 20px 0;
+}
+
+.nav-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.nav-item :hover {
+  color: #101010;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+/* intro styles end */
+
+/* about styles start */
+.about {
+  padding: 75px 0;
+}
+.img-avatar {
+  border-radius: 20%;
+}
+.preview_wrappe {
+  margin-right: 20px;
+  display: flex;
+}
+
+.description {
+  margin: 0 40px 0 40px;
+  display: block;
+}
+
+.contacts {
+  justify-content: center;
+}
+.contacts-item {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+  list-style: none;
+}
+
+.contacts-list a {
+  padding: 12px 0 0 0;
+  text-decoration: none;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.contacts-list span {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.contacts-text {
+  background-color: #ffe657;
+  text-align: center;
+}
+
+.skills_and_education_wrappe {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 70px;
+}
+
+.yellow-text {
+  width: 400px;
+  background-color: #ffe657;
+}
+
+.yellow-background {
+  background-color: #ffe657;
+}
+
+.codeExample_and_projects_wrappe {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+  margin: 70px;
+}
+
+.english_wrappe {
+  display: flex;
+  justify-content: center;
+}
+.english p {
+  text-align: center;
+}
+.footer {
+  padding: 30px 0;
+  background-color: #d4c04b;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-logo {
+  width: 75px;
+}
+
+.rs-school__img {
+  width: 100%;
+  border-radius: 50%;
+}
