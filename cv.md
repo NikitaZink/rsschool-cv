@@ -56,4 +56,4 @@ Brest State University A.S. Pushkin
 
 ## English skill level
 
-Intermediate level / B1
+Intermediate level / B2
